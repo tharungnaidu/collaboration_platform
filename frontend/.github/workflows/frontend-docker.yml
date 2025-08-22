@@ -28,7 +28,7 @@ jobs:
       - name: Build & Push Docker image
         uses: docker/build-push-action@v6
         with:
-          context: ./client   # 👈 path to frontend code
+          context: ./frontend  # 👈 path to frontend code
           push: true
           tags: |
             ghcr.io/${{ github.repository }}/frontend:latest
