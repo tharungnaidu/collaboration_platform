@@ -2,7 +2,7 @@ name: CI/CD - React Frontend with Docker
 
 on:
   push:
-    branches: [ "main" ]   # run pipeline when code pushed to main
+    branches: [ "master" ]   # run pipeline when code pushed to main
 
 jobs:
   build-and-push:
